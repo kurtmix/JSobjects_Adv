@@ -8,6 +8,8 @@ $( document ).ready(function() {
 $("body").prepend("<div> Artist??? </div>");
 //Task 4: (project) Create a site that can display songs from an artist specified by a user search.
 $("button").click(function(){
-    $("input:text").val();
+   var memes = $("#super").val();
+    console.log(memes);
+    
 });
 });
